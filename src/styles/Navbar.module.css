@@ -1,9 +1,0 @@
-.navbar {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-}
-
-.navLink {
-    text-decoration: none;
-}

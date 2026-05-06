@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 20px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navLink:hover {
+    color: blue;
+}
+
+.navLink:active {
+    color: red;
+    top: 5px;
+}

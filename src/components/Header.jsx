@@ -1,11 +1,16 @@
+import styles from "../styles/Header.module.css"
 import Navbar from "./Navbar"
 
 function Header() {
     return (
         <>
-            <h1>Portfolio Willy mariino</h1>
+            <header>
 
-            <Navbar />
+                <h1>Portfolio Willy mariino</h1>
+
+                <Navbar />
+
+            </header>
 
         </>
     )
